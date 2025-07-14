@@ -12,8 +12,8 @@
 		<link rel="preload" href="./assets/fonts/GTWalsheimPro-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Home Page</title>
-		<script type="module" crossorigin="" src="./js/index.min.js?v=1752333434464"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1752333434464">
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1752516093202"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1752516093202">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -47,16 +47,18 @@
 							<button class="button --icon-arrow-rotate btn-anim" data-fls-popup-link="popup-form" type="button">
 								<span>Зв’язатися</span>
 							</button>
-							<div class="header__social social">
-								<ul class="social__list">
-									<li class="social__item">
-										<a class="social__link --icon-facebook" href="#" aria-label="facebook"></a>
-									</li>
-									<li class="social__item">
-										<a class="social__link --icon-telegram" href="#" aria-label="telegram"></a>
-									</li>
-								</ul>
-							</div>
+							<!--
+<div class="header__social social">
+<ul class="social__list">
+<li class="social__item">
+<a class="social__link --icon-facebook" href="#" aria-label="facebook"></a>
+</li>
+<li class="social__item">
+<a class="social__link --icon-telegram" href="#" aria-label="telegram"></a>
+</li>
+</ul>
+</div>
+-->
 						</div>
 					</div>
 					<button type="button" data-fls-menu="" class="menu__icon icon-menu">
@@ -399,7 +401,7 @@
 											<div class="item-work__wrap">
 												<a class="item-work__img" href="./assets/img/gutter/01.webp" data-fancybox="work-gutter" data-caption="">
 													<picture>
-														<img alt="Підшивка водостоку" src="./assets/img/gutter/01.webp">
+														<img alt="Подшива, Водосток" src="./assets/img/gutter/01.webp">
 													</picture>
 													<div class="item-work__link --icon-arrow-rotate"></div>
 												</a>
@@ -412,7 +414,7 @@
 												<a href="./assets/img/gutter/08.webp" data-fancybox="work-gutter" data-caption="" hidden></a>
 												<a href="./assets/img/gutter/09.webp" data-fancybox="work-gutter" data-caption="" hidden></a>
 											</div>
-											<h4 class="item-work__title">Підшивка водостоку</h4>
+											<h4 class="item-work__title">Подшива, Водосток</h4>
 										</div>
 									</div>
 									<div class="works__slide swiper-slide">
@@ -442,6 +444,10 @@
 						</div>
 					</div>
 				</section>
+				<div class="marquee" data-fls-marquee="">
+					<span class="marquee__item">Дах на довгі роки</span>
+					<div class="marquee__item">Roofing</div>
+				</div>
 				<section class="section about-us" id="about-us" data-fls-watcher="" data-fls-watcher-once="" data-fls-watcher-threshold="0.5">
 					<div class="about-us__container">
 						<div class="about-us__row" data-fls-parallax-parent="">
@@ -627,16 +633,12 @@
 									<a class="contacts__link" href="tel:+380689596228">+38(068) 959-62-28</a>
 								</div>
 								<div class="contacts__item">
-									<div class="contacts__label">Telegram</div>
-									<a class="contacts__link" href="#">@roofing_ua</a>
-								</div>
-								<div class="contacts__item">
 									<div class="contacts__label">eMAIL</div>
-									<a class="contacts__link" href="mailto:info@roofing.in.ua">info@roofing.in.ua</a>
+									<a class="contacts__link" href="mailto:roofingsl.com.ua">roofingsl.com.ua</a>
 								</div>
 								<div class="contacts__item">
-									<div class="contacts__label">messenger</div>
-									<a class="contacts__link" href="#">RoofingInUa</a>
+									<div class="contacts__label">instagram</div>
+									<a class="contacts__link" href="https://www.instagram.com/roofingsl.com.ua/profilecard/?igsh=MTR3dXNlcDZ4bHVrZw==" target="_blank" rel="noopener noreferrer">roofingsl.com.ua</a>
 								</div>
 							</div>
 						</div>
@@ -671,6 +673,7 @@
 				</div>
 			</footer>
 		</div>
+		<a class="btn-mobile-fixed --icon-phone" href="tel:+380689596228" aria-label="phone main"></a>
 		<div data-fls-popup="popup-form" aria-hidden="true" class="popup">
 			<div data-fls-popup-wrapper="" class="popup__wrapper">
 				<div data-fls-popup-body="" class="popup__body">
@@ -701,19 +704,19 @@
 								<span>Відправити</span>
 							</button>
 						</form>
-						<div class="popup__social social">
-							<div class="social__title">
-								<span>або зв’яжіться за допомогою месенджерів</span>
-							</div>
-							<ul class="social__list">
-								<li class="social__item">
-									<a class="social__link --icon-facebook" href="#" aria-label="facebook"></a>
-								</li>
-								<li class="social__item">
-									<a class="social__link --icon-telegram" href="#" aria-label="telegram"></a>
-								</li>
-							</ul>
-						</div>
+						<!--
+<div class="popup__social social">
+<div class="social__title"><span>або зв’яжіться за допомогою месенджерів</span></div>
+<ul class="social__list">
+<li class="social__item">
+<a class="social__link --icon-facebook" href="#" aria-label="facebook"></a>
+</li>
+<li class="social__item">
+<a class="social__link --icon-telegram" href="#" aria-label="telegram"></a>
+</li>
+</ul>
+</div>
+-->
 					</div>
 				</div>
 			</div>
